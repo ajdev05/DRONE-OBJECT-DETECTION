@@ -6,7 +6,7 @@ These instructions will help you get a copy of the project up and running on you
 
 ### Prerequisites
 
-To run this project, you need to have Python 3.11 installed on your system. Additionally, ensure you have the Tello drone and a compatible device for communication (e.g., laptop, smartphone).
+To run this project, you need to have Python 3.11 and PIP installed on your system. Additionally, ensure you have the Tello drone and a compatible device for communication (e.g., laptop, smartphone).
 
 ### Installing
 
@@ -38,4 +38,14 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
+### Connecting to the drone
+
+Turn on the drone and connect to it using WiFi. To control the drone manually download the "Tello" app on your mobile device.
+
+
+5. When everything is connected, run:
+
+```bash
+python3 main.py
+```
 
