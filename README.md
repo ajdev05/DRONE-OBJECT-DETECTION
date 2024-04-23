@@ -1,4 +1,4 @@
-# Drone OBJECT DETECTION
+# Drone Object Detection
 
 ## Getting Started
 
@@ -16,3 +16,26 @@ You can install the project locally using Git and pip. Follow the steps below:
 
 ```bash
 git clone https://github.com/ajdev05/DRONE-OBJECT-DETECTION.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd DRONE-OBJECT-DETECTION
+```
+
+3. Install and activate virtual environment:
+
+```bash
+pip install virtualenv
+virtualenv env
+source env/bin/activate 
+```
+
+4. Install the required dependencies using pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+
