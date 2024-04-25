@@ -1,6 +1,6 @@
 # Drone Object Detection
 
-This project 
+This project is made for the 
 
 ## Getting Started
 
