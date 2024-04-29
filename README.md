@@ -15,7 +15,7 @@ To run this project, you need to have Python 3 and PIP installed on your system.
 You can install the project locally using Git and pip. Follow the steps below:
 
 1. Clone the repository to your local machine:
-
+ 
 ```bash
 git clone https://github.com/ajdev05/DRONE-OBJECT-DETECTION.git
 ```
