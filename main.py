@@ -5,7 +5,7 @@ import time
 
 
 drone = tello.Tello()
-drone.connect()
+drone.connect() 
 
 imgthold = 0.6
 nmsthold = 0.2
