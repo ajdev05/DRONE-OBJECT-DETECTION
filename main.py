@@ -1,7 +1,7 @@
 import cv2
 from djitellopy import tello
 import cvzone
-import time
+import time 
 
 
 drone = tello.Tello()
