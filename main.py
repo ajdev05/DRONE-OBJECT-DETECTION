@@ -38,7 +38,7 @@ drone.streamon()
 
 
 while True:
-    img = drone.get_frame_read().frame
+    img = drone.get_frame_read().frame 
 
     classIds, confs, bbox = net.detect(img,confThreshold=imgthold, nmsThreshold=nmsthold)
     try:
