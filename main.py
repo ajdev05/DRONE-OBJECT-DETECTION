@@ -7,8 +7,6 @@ import time
 drone = tello.Tello()
 drone.connect() 
 
-imgthold = 0.6
-nmsthold = 0.2
 classNames = []
 classFile = "coco.names"
 with open(classFile, 'rt') as file:
@@ -40,7 +38,7 @@ drone.streamon()
 while True:
     img = drone.get_frame_read().frame 
 
-    classIds, confs, bbox = net.detect(img,confThreshold=imgthold, nmsThreshold=nmsthold)
+    classIds, confs, bbox = net.detect(img,confThreshold=0.6, nmsThreshold=0.2)
     try:
         for classId, conf, box in zip(classIds.flatten(),confs.flatten(), bbox):
             print(classId,conf, box)
