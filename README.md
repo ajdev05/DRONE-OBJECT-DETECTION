@@ -1,7 +1,7 @@
 # Drone Object Detection
 
 This project aims to perform object detection on live video footage captured by the Tello drone using computer vision techniques. It leverages the power of OpenCV and a pre-trained YOLO object detection model.
-
+ 
 ## Getting Started
 
 These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
