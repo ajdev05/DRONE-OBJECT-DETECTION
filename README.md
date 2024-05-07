@@ -7,7 +7,7 @@ This project aims to perform object detection on live video footage captured by 
 These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-
+ 
 To run this project, you need to have Python 3 and PIP installed on your system. Additionally, ensure you have the Tello drone and a compatible device for communication (e.g., laptop, smartphone).
 
 ### Installing
